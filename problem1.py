@@ -17,3 +17,16 @@ outputs:
 Access granted
 Access denied
 """
+username = ""
+password = ""
+times = 0
+while username != "admin" and password != "12345":
+    username = input("Enter a username").strip()
+    password = input("Enter a password").strip()
+    if username == "admin" and password == "12345":
+        print("Access granted")
+    else:
+        print("Access denied")
+        times = times + 1
+        if times == 3:
+            break
