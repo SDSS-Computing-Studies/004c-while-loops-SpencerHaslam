@@ -21,7 +21,7 @@ time = 0
 number = int(input("Enter a number"))
 ognum = int(number)
 while number != endnum:
-    print(number)
+    print(number, end= " ")
     number = int(number + ognum)
     time = time + 1
     if time == 12:
