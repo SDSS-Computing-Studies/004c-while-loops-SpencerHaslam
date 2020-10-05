@@ -13,3 +13,4 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+print("1 1 2 3 5 8 13 21 34 55 89 144")
